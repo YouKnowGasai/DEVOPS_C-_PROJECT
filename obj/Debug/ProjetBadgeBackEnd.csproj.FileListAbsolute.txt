@@ -1,7 +1,0 @@
-C:\Users\aerben\source\repos\ProjetBadgeBackEnd\ProjetBadgeBackEnd\obj\Debug\ProjetBadgeBackEnd.csproj.AssemblyReference.cache
-C:\Users\aerben\source\repos\ProjetBadgeBackEnd\ProjetBadgeBackEnd\obj\Debug\ProjetBadgeBackEnd.csproj.CoreCompileInputs.cache
-C:\Users\aerben\source\repos\ProjetBadgeBackEnd\ProjetBadgeBackEnd\bin\Debug\ProjetBadgeBackEnd.exe.config
-C:\Users\aerben\source\repos\ProjetBadgeBackEnd\ProjetBadgeBackEnd\bin\Debug\ProjetBadgeBackEnd.exe
-C:\Users\aerben\source\repos\ProjetBadgeBackEnd\ProjetBadgeBackEnd\bin\Debug\ProjetBadgeBackEnd.pdb
-C:\Users\aerben\source\repos\ProjetBadgeBackEnd\ProjetBadgeBackEnd\obj\Debug\ProjetBadgeBackEnd.exe
-C:\Users\aerben\source\repos\ProjetBadgeBackEnd\ProjetBadgeBackEnd\obj\Debug\ProjetBadgeBackEnd.pdb
