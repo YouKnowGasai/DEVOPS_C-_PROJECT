@@ -1,0 +1,14 @@
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\LEDClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\LEDClient.AssemblyInfoInputs.cache
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\LEDClient.AssemblyInfo.cs
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\LEDClient.csproj.CoreCompileInputs.cache
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\bin\Debug\net8.0-windows\LEDClient.exe
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\bin\Debug\net8.0-windows\LEDClient.deps.json
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\bin\Debug\net8.0-windows\LEDClient.runtimeconfig.json
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\bin\Debug\net8.0-windows\LEDClient.dll
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\bin\Debug\net8.0-windows\LEDClient.pdb
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\LEDClient.dll
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\refint\LEDClient.dll
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\LEDClient.pdb
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\LEDClient.genruntimeconfig.cache
+C:\Users\pc-er\Desktop\LedSystem\LEDClient\obj\Debug\net8.0-windows\ref\LEDClient.dll
