@@ -13,3 +13,17 @@ C:\Users\pc-er\Desktop\DEVOPS_C-_PROJECT\ledsystem\obj\Debug\net8.0-windows\refi
 C:\Users\pc-er\Desktop\DEVOPS_C-_PROJECT\ledsystem\obj\Debug\net8.0-windows\ledsystem.pdb
 C:\Users\pc-er\Desktop\DEVOPS_C-_PROJECT\ledsystem\obj\Debug\net8.0-windows\ledsystem.genruntimeconfig.cache
 C:\Users\pc-er\Desktop\DEVOPS_C-_PROJECT\ledsystem\obj\Debug\net8.0-windows\ref\ledsystem.dll
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\bin\Debug\net8.0-windows\ledsystem.exe
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\bin\Debug\net8.0-windows\ledsystem.deps.json
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\bin\Debug\net8.0-windows\ledsystem.runtimeconfig.json
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\bin\Debug\net8.0-windows\ledsystem.dll
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\bin\Debug\net8.0-windows\ledsystem.pdb
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ledsystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ledsystem.AssemblyInfoInputs.cache
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ledsystem.AssemblyInfo.cs
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ledsystem.csproj.CoreCompileInputs.cache
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ledsystem.dll
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\refint\ledsystem.dll
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ledsystem.pdb
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ledsystem.genruntimeconfig.cache
+C:\Users\Moi\Downloads\DEVOPS_C-_PROJECT-main\DEVOPS_C-_PROJECT-main\ledsystem\obj\Debug\net8.0-windows\ref\ledsystem.dll
