@@ -28,7 +28,9 @@ public partial class MainForm : Form
         // Gérez l'événement Click du bouton d'envoi
         try
         {
+            DictionnairePixel dictionnairePixel = new DictionnairePixel(); 
             string message = messageTextBox.Text;
+            message = dictionnairePixel.translate(message).ToString();
             await _viewModel.SendMessage(message);
             MessageBox.Show("Message envoyé avec succès!", "Succès", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
