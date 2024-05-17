@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc-er\\Desktop\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj": {}
+    "C:\\Users\\pc-er\\Desktop\\TP Devops\\TP Dotnet\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc-er\\Desktop\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj": {
+    "C:\\Users\\pc-er\\Desktop\\TP Devops\\TP Dotnet\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc-er\\Desktop\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj",
+        "projectUniqueName": "C:\\Users\\pc-er\\Desktop\\TP Devops\\TP Dotnet\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj",
         "projectName": "ledsystem",
-        "projectPath": "C:\\Users\\pc-er\\Desktop\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj",
+        "projectPath": "C:\\Users\\pc-er\\Desktop\\TP Devops\\TP Dotnet\\DEVOPS_C-_PROJECT\\ledsystem\\ledsystem.csproj",
         "packagesPath": "C:\\Users\\pc-er\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc-er\\Desktop\\DEVOPS_C-_PROJECT\\ledsystem\\obj\\",
+        "outputPath": "C:\\Users\\pc-er\\Desktop\\TP Devops\\TP Dotnet\\DEVOPS_C-_PROJECT\\ledsystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -5,19 +5,22 @@ using System.Threading.Tasks;
 
 public class DataSender
 {
-    public async Task SendDataAsync(TcpClient client, string data)
+    public async Task SendDataAsync(List<TcpClient> clients, string data)
     {
-        try
+        foreach (var client in clients)
         {
-            using (NetworkStream stream = client.GetStream())
+            try
             {
-                byte[] buffer = Encoding.ASCII.GetBytes(data);
-                await stream.WriteAsync(buffer, 0, buffer.Length);
+                using (NetworkStream stream = client.GetStream())
+                {
+                    byte[] buffer = Encoding.ASCII.GetBytes(data);
+                    await stream.WriteAsync(buffer, 0, buffer.Length);
+                }
             }
-        }
-        catch (Exception ex)
-        {
-            throw new Exception("Erreur lors de l'envoi des données : " + ex.Message);
+            catch (Exception ex)
+            {
+                throw new Exception("Erreur lors de l'envoi des données : " + ex.Message);
+            }
         }
     }
 }

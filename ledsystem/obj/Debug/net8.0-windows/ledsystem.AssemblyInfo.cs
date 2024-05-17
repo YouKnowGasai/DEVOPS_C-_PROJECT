@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ledsystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+257787f1252280d0fbdc7355e764572d7e48f629")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eed28698dc4f9431b0e0baf3be392623086da92")]
 [assembly: System.Reflection.AssemblyProductAttribute("ledsystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ledsystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

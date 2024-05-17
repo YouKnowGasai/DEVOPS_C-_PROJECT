@@ -6,7 +6,7 @@ public class MainFormViewModel : INotifyPropertyChanged
 {
     private ServerConnector serverConnector;
     private DataSender dataSender;
-    private TcpClient client;
+    private List<TcpClient> _clients;
 
     public MainFormViewModel()
     {
@@ -14,15 +14,16 @@ public class MainFormViewModel : INotifyPropertyChanged
         dataSender = new DataSender();
     }
 
-    public async Task ConnectToServerAsync(string serverIP, int serverPort)
+    public async Task ConnectToServerAsync(string serverIP, int minPort, int maxPort)
     {
         try
         {
-            client = await serverConnector.ConnectAsync(serverIP, serverPort);        
+            ServerConnector tcpClientListCreator = new ServerConnector();
+            _clients = tcpClientListCreator.CreateTcpClientList(serverIP, minPort, maxPort);
+            
         }
         catch (Exception ex)
-        {
-            // Gérez les exceptions liées à la connexion
+        {           
             throw new Exception("Erreur lors de la connexion au serveur : " + ex.Message);
         }
     }
@@ -31,23 +32,29 @@ public class MainFormViewModel : INotifyPropertyChanged
     {
         try
         {
-            if (client != null && client.Connected)
-            {
-                // Utilisez client pour envoyer le message
-                await dataSender.SendDataAsync(client, data);
+            if (_clients != null && _clients.Any(client => client.Connected))
+            {                
+                await dataSender.SendDataAsync(_clients, data);
             }
             else
-            {
-                // Gérez le cas où le client n'est pas connecté
+            {                
                 throw new Exception("Le client n'est pas connecté au serveur.");
             }
         }
         catch (Exception ex)
-        {
-            // Gérez les exceptions liées à l'envoi du message
+        {            
             throw new Exception("Erreur lors de l'envoi du message : " + ex.Message);
         }
     }
+
+    /*public async Task Disconnect()
+        {
+            if (client != null)
+            {
+                client.Close();
+                client = null;
+            }
+        }*/
 
     public event PropertyChangedEventHandler? PropertyChanged;
 }

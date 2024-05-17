@@ -8,8 +8,7 @@ public class Program
     {
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
-
-        // Créez et lancez votre formulaire principal
+        
         Application.Run(new MainForm());
     }
 }

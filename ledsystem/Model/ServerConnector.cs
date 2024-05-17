@@ -3,17 +3,24 @@ using System.Net.Sockets;
 using System.Threading.Tasks;
 
 public class ServerConnector
-{
-    public async Task<TcpClient> ConnectAsync(string serverIP, int serverPort)
+{ 
+    public List<TcpClient> CreateTcpClientList(string serverIP, int minPort, int maxPort)
     {
-        try
+        List<TcpClient> tcpClientList = new List<TcpClient>();
+
+        for (int port = minPort; port <= maxPort; port++)
         {
-            TcpClient client = new TcpClient(serverIP, serverPort);
-            return client;
+            try
+            {
+                TcpClient client = new TcpClient(serverIP, port);
+                tcpClientList.Add(client);
+            }
+            catch (Exception)
+            {
+                // Ignore les exceptions pour les ports non connectés et continue à essayer le prochain port
+            }
         }
-        catch (Exception ex)
-        {
-            throw new Exception("Erreur lors de la connexion au serveur : " + ex.Message);
-        }
+
+        return tcpClientList;
     }
 }
